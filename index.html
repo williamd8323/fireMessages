@@ -12,7 +12,20 @@
     <!--PASTE SNIPPET HERE-->
 
 
-
+    
+        <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+        <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBgIusH9095UPy27J1NDIds8ujU2C6xxHo",
+            authDomain: "wills-firemessage.firebaseapp.com",
+            databaseURL: "https://wills-firemessage.firebaseio.com",
+            projectId: "wills-firemessage",
+            storageBucket: "",
+            messagingSenderId: "383513847329"
+        };
+        firebase.initializeApp(config);
+        </script>
 
     <!--jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -28,7 +41,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Will's Messaging App</h1>
 
     <!--Will be populated with messages-->
     <div class="allMessages">
@@ -51,5 +64,7 @@
             </div>
         </form>
     </div>
+
+    
 </body>
 </html>
